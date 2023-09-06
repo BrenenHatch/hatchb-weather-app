@@ -1,17 +1,21 @@
 {
-  "name": "express-hello-world",
+  "name": "hatchb-weather-app",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
+  "description": "NodeJS weather app",
+  "main": "src/app.js",
+  "repository": "https://github.com/BrenenHatch/hatchb-weather-app",
+  "author": "Brenen Hatch",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "request": "^2.88.0",
+    "yargs": "^17.7.2",
+    "hbs": "^4.0.1",
+    "dotenv": "^16.3.1"
   },
   "engines": {
     "node": ">=14"
